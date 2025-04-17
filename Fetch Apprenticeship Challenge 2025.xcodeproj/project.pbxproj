@@ -32,6 +32,7 @@
 		4AF446C62DAF44AF00FF21C7 = {
 			isa = PBXGroup;
 			children = (
+				4AF446E32DB08BC800FF21C7 /* View Models */,
 				4AF446E22DAF45A400FF21C7 /* Models */,
 				4AF446D12DAF44AF00FF21C7 /* Fetch Apprenticeship Challenge 2025 */,
 				4AF446E12DAF456900FF21C7 /* Views */,
@@ -59,6 +60,13 @@
 			children = (
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		4AF446E32DB08BC800FF21C7 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
