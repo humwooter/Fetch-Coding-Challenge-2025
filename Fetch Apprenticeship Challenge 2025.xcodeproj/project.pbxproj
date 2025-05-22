@@ -6,19 +6,55 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		4A0FAA292DB3896C000D2042 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AF446C72DAF44AF00FF21C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AF446CE2DAF44AF00FF21C7;
+			remoteInfo = "Fetch Apprenticeship Challenge 2025";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		4A0FAA252DB3896C000D2042 /* Fetch Apprenticeship Challenge 2025Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fetch Apprenticeship Challenge 2025Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF446CF2DAF44AF00FF21C7 /* Fetch Apprenticeship Challenge 2025.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fetch Apprenticeship Challenge 2025.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		4A0FAA1C2DB0CCB3000D2042 /* Exceptions for "Fetch Apprenticeship Challenge 2025" folder in "Compile Sources" phase from "Fetch Apprenticeship Challenge 2025" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 4AF446CB2DAF44AF00FF21C7 /* Sources */;
+			membershipExceptions = (
+				Assets.xcassets,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		4A0FAA262DB3896C000D2042 /* Fetch Apprenticeship Challenge 2025Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Fetch Apprenticeship Challenge 2025Tests";
+			sourceTree = "<group>";
+		};
 		4AF446D12DAF44AF00FF21C7 /* Fetch Apprenticeship Challenge 2025 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4A0FAA1C2DB0CCB3000D2042 /* Exceptions for "Fetch Apprenticeship Challenge 2025" folder in "Compile Sources" phase from "Fetch Apprenticeship Challenge 2025" target */,
+			);
 			path = "Fetch Apprenticeship Challenge 2025";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4A0FAA222DB3896C000D2042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4AF446CC2DAF44AF00FF21C7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -32,10 +68,8 @@
 		4AF446C62DAF44AF00FF21C7 = {
 			isa = PBXGroup;
 			children = (
-				4AF446E32DB08BC800FF21C7 /* View Models */,
-				4AF446E22DAF45A400FF21C7 /* Models */,
 				4AF446D12DAF44AF00FF21C7 /* Fetch Apprenticeship Challenge 2025 */,
-				4AF446E12DAF456900FF21C7 /* Views */,
+				4A0FAA262DB3896C000D2042 /* Fetch Apprenticeship Challenge 2025Tests */,
 				4AF446D02DAF44AF00FF21C7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,34 +78,37 @@
 			isa = PBXGroup;
 			children = (
 				4AF446CF2DAF44AF00FF21C7 /* Fetch Apprenticeship Challenge 2025.app */,
+				4A0FAA252DB3896C000D2042 /* Fetch Apprenticeship Challenge 2025Tests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		4AF446E12DAF456900FF21C7 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		4AF446E22DAF45A400FF21C7 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		4AF446E32DB08BC800FF21C7 /* View Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "View Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4A0FAA242DB3896C000D2042 /* Fetch Apprenticeship Challenge 2025Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A0FAA2B2DB3896C000D2042 /* Build configuration list for PBXNativeTarget "Fetch Apprenticeship Challenge 2025Tests" */;
+			buildPhases = (
+				4A0FAA212DB3896C000D2042 /* Sources */,
+				4A0FAA222DB3896C000D2042 /* Frameworks */,
+				4A0FAA232DB3896C000D2042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A0FAA2A2DB3896C000D2042 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4A0FAA262DB3896C000D2042 /* Fetch Apprenticeship Challenge 2025Tests */,
+			);
+			name = "Fetch Apprenticeship Challenge 2025Tests";
+			packageProductDependencies = (
+			);
+			productName = "Fetch Apprenticeship Challenge 2025Tests";
+			productReference = 4A0FAA252DB3896C000D2042 /* Fetch Apprenticeship Challenge 2025Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		4AF446CE2DAF44AF00FF21C7 /* Fetch Apprenticeship Challenge 2025 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4AF446DE2DAF44B100FF21C7 /* Build configuration list for PBXNativeTarget "Fetch Apprenticeship Challenge 2025" */;
@@ -104,6 +141,10 @@
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
+					4A0FAA242DB3896C000D2042 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 4AF446CE2DAF44AF00FF21C7;
+					};
 					4AF446CE2DAF44AF00FF21C7 = {
 						CreatedOnToolsVersion = 16.2;
 					};
@@ -124,11 +165,19 @@
 			projectRoot = "";
 			targets = (
 				4AF446CE2DAF44AF00FF21C7 /* Fetch Apprenticeship Challenge 2025 */,
+				4A0FAA242DB3896C000D2042 /* Fetch Apprenticeship Challenge 2025Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4A0FAA232DB3896C000D2042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4AF446CD2DAF44AF00FF21C7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -139,6 +188,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4A0FAA212DB3896C000D2042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4AF446CB2DAF44AF00FF21C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -148,7 +204,56 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		4A0FAA2A2DB3896C000D2042 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AF446CE2DAF44AF00FF21C7 /* Fetch Apprenticeship Challenge 2025 */;
+			targetProxy = 4A0FAA292DB3896C000D2042 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		4A0FAA2C2DB3896C000D2042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7MT63WYVUC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dodum.Fetch-Apprenticeship-Challenge-2025Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fetch Apprenticeship Challenge 2025.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fetch Apprenticeship Challenge 2025";
+			};
+			name = Debug;
+		};
+		4A0FAA2D2DB3896C000D2042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7MT63WYVUC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dodum.Fetch-Apprenticeship-Challenge-2025Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fetch Apprenticeship Challenge 2025.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fetch Apprenticeship Challenge 2025";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		4AF446DC2DAF44B100FF21C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -344,6 +449,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4A0FAA2B2DB3896C000D2042 /* Build configuration list for PBXNativeTarget "Fetch Apprenticeship Challenge 2025Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0FAA2C2DB3896C000D2042 /* Debug */,
+				4A0FAA2D2DB3896C000D2042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4AF446CA2DAF44AF00FF21C7 /* Build configuration list for PBXProject "Fetch Apprenticeship Challenge 2025" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
