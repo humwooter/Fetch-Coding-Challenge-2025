@@ -3,8 +3,9 @@
 ## Summary  
 This SwiftUI iOS app fetches a JSON feed of recipes and presents them in a clean, navigable list that expands to a corresponding detailed views. Images are downloaded and cached by a custom `ImageLoader` actor that combines in-memory and on-disk caching to keep scrolling smooth and to support basic offline use. Comprehensive unit tests cover both the `APIService` networking layer and the image pipeline, so the core logic remains reliable.  
 
-![IMG_0725](https://github.com/user-attachments/assets/d2c1aa28-84e8-4e4a-9a17-547b1899e79f)
-![IMG_0727](https://github.com/user-attachments/assets/1f8e306a-e48b-4c77-a4cd-5dab20ffbc74)
+
+![IMG_0725](https://github.com/user-attachments/assets/1c9ef546-f16d-44b8-9f13-80241350eaca)
+![IMG_0727](https://github.com/user-attachments/assets/43695d6c-d15a-47f4-977e-d4604ec8a6bf)
 
 
 ## Focus Areas  
